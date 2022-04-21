@@ -105,7 +105,7 @@ def logic(TimeToCount, WaitTime):
     setLabel(res2, "Seconds between action? Leave blank for every second: ", WaitTime)
     count =0
     TimeToCount = int(TimeToCount)
-    WaitTime = int(TimeToCount)
+    WaitTime = int(WaitTime)
     if WaitTime:
         WaitTime=int(WaitTime)
     else:
